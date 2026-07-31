@@ -12,7 +12,7 @@ function getMinutesToReadDisplay(minutesToRead) {
   return `${repeat(boxes)} ${minutesToRead} min read`;
 }
 
-function Article({ title, date = "December 15, 2020", preview, minutesToRead }) {
+function Article({ title, date = "January 1, 1970", preview, minutesToRead }) {
   const minutesDisplay = getMinutesToReadDisplay(minutesToRead);
 
   return (
