@@ -10,7 +10,7 @@ function About({ image, about })
             <img src={imgSrc} alt="blog logo" />
             <p>{about}</p>
         </aside>
-    )
+    );
 }
 
 export default About;

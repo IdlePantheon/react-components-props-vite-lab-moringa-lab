@@ -14,7 +14,7 @@ function ArticleList({ posts }) {
             />
         ))}
     </main>
-  )
+  );
 }
 
 export default ArticleList;
