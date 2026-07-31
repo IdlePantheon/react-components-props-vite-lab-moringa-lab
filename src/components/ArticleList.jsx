@@ -1,7 +1,7 @@
 import React from "react";
 import Article from './Article'; // Import the blueprint we just made
 
-function ArticleList({ posts }) {
+function ArticleList({ posts=[] }) {
   return (
     <main>
         {posts.map((post) => 
@@ -11,6 +11,7 @@ function ArticleList({ posts }) {
                 title={post.title} 
                 date={post.date} 
                 preview={post.preview} 
+                minutesToRead={post.minutesToRead}
             />
         ))}
     </main>
